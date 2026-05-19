@@ -56,7 +56,40 @@ Modern arayüzlü, masaüstü tabanlı bir **otel rezervasyon yönetim sistemi**
 
 ## 🖼 Ekran Görüntüleri
 
-> _Ekran görüntüleri eklenecek_
+### Dashboard
+Stat kartları (toplam oda, konaklayan, check-in/out, doluluk, gelir) ve yaklaşan rezervasyonlar listesi.
+
+![Dashboard](docs/screenshots/01-dashboard.png)
+
+### Rezervasyon Yönetimi
+Tüm rezervasyon kayıtları, durum filtresi, tarih aralığı filtresi ve check-in/check-out/iptal işlemleri tek ekranda.
+
+![Rezervasyonlar](docs/screenshots/02-rezervasyonlar.png)
+
+### Yeni Rezervasyon
+Müsait oda otomatik filtrelemesi, anlık ücret hesaplama, çakışma kontrolü ile veri girişi.
+
+![Yeni Rezervasyon Dialog](docs/screenshots/07-yeni-rezervasyon-dialog.png)
+
+### Müsait Oda Arama
+Tarih aralığı ve kişi sayısına göre boş oda sorgulama; bulunan odadan tek tıkla rezervasyon başlatma.
+
+![Müsait Odalar](docs/screenshots/03-musait-odalar.png)
+
+### Oda Yönetimi
+Oda numarası, tip, kapasite, kat, gecelik ücret ve aktiflik durumu üzerinde tam CRUD.
+
+![Odalar](docs/screenshots/04-odalar.png)
+
+### Müşteri Yönetimi
+Ad, TC, telefon, e-posta üzerinden arama; rezervasyonu olan müşterilerin silinmesi engellenir.
+
+![Müşteriler](docs/screenshots/05-musteriler.png)
+
+### Raporlar
+Belirli tarih aralığında doluluk oranı, toplam gelir ve rezervasyon detay listesi.
+
+![Raporlar](docs/screenshots/06-raporlar.png)
 
 ---
 
