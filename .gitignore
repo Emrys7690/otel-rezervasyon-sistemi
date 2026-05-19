@@ -1,0 +1,68 @@
+# ---------- .NET / Visual Studio ----------
+bin/
+obj/
+out/
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+[Ww][Ii][Nn]32/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+*.userprefs
+
+# Build outputs
+*.dll
+*.exe
+*.pdb
+*.cache
+*.tlog
+*.log
+
+# Generated source files
+*.g.cs
+*.g.i.cs
+*.AssemblyInfo.cs
+
+# Restore / lock files
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# JetBrains Rider / ReSharper
+.idea/
+*.DotSettings.user
+
+# Visual Studio Code
+.vs/
+.vscode/
+
+# ---------- Veritabanı ----------
+# Üretilen SQLite dosyaları (kullanıcı %LOCALAPPDATA% altında oluşur ama
+# yine de yanlışlıkla commit'lenmemesi için)
+*.db
+*.db-journal
+*.db-shm
+*.db-wal
+*.sqlite
+*.sqlite3
+
+# ---------- OS ----------
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+.DS_Store
+
+# ---------- Geçici / yedek ----------
+*.tmp
+*.bak
+*.swp
+*~
+
+# ---------- Claude Code yerel ayarlar ----------
+.claude/
